@@ -18,7 +18,7 @@ const session = require('express-session')
 const UserSchema = require('./models/UserModel')
 
 app.use(cors({
-  origin: ['https://malroc-ai-admin.vercel.app', 'https://malrocaitrades.com', 'https://admin.malrocaitrades.com','http://localhost:5173']
+  origin: ['https://malroc-ai-admin.vercel.app', 'https://malrocaitrades.com', 'https://admin-center.malrocaitrades.com','http://localhost:5173']
 }));
 
 app.use(morgan('dev'))
