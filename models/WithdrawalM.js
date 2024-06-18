@@ -19,6 +19,9 @@ const WithdrawalSchema = new mongoose.Schema(
             type: Number,
             required: [true, "please provide amount"],
         },
+        charges: {
+            type: Number,
+        },
         exchange: {
             type: String,
             required: [true, "please provide exchange"],
